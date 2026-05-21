@@ -44,8 +44,7 @@ public class Main {
     }
 
     /*
-     * For unsorted arrays.
-     * Uses a HashSet for O(n) lookup.
+     * Uses a HashSet
      * Returns Pair(0, 0) when no valid pair exists.
      */
     static Pair findPairUnsorted(int[] A, int target) {
