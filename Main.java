@@ -88,7 +88,7 @@ public class Main {
                 result = findPairUnsorted(A, T);
             }
 
-            // Output — n1 must be less than n2
+            // Output: n1 must be less than n2
             if (result.first == 0 && result.second == 0) {
                 System.out.println("Test case#" + m + ": No way you can spend exactly " + T + " points.");
             } else {
